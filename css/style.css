@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-image: url();
+}
+
+/* Navigation Header Fixed to Sakura nav Item*/
+.menu-toolbar {
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .menu-toolbar {
+        display: flex;
+    }
+}
+
+/*  */
