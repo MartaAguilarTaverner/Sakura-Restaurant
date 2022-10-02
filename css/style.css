@@ -15,9 +15,24 @@ body {
 }
 
 /* Dishes */
-#cardmenu1 {
+#cardmenu {
+    display: flex;
     margin: 3rem;
     width: 40rem;
+    justify-content: center;
 }
 
-.section
+@media (min 992px) {
+    #cardmenu {
+        display: flex;
+    } 
+    
+}
+
+.section-dishes {
+    list-style-type: disc;
+}
+
+.section-dishes-items {
+    list-style-type: circle;
+}
