@@ -1,6 +1,44 @@
+@font-face {
+    font-family: Caveat;
+    src: url("../font/Caveat-Regular.ttf");
+}
 body {
     margin: 0;
-    background-image: url();
+    height: 100vh;
+}
+
+/* Design Page Sakura that is Home */
+#main {
+    background-image: url('../img/Japan-Traditional-Painting.jpg');
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+}
+
+.logo-container {
+    height: 15vh;
+}
+
+.img-brand {
+    height: 100%;
+}
+
+.main-text {
+    height: 20vh;
+    font-size:3rem;
+    font-family: Caveat;
+    width: 15vw;
+}
+
+
+
+.principal-text {
+    background-color: #F8F9FA;
+}
+
+.footer-text {
+    height: 15vh;
 }
 
 /* Navigation Header Fixed to Sakura nav Item*/
@@ -12,21 +50,20 @@ body {
     .menu-toolbar {
         display: flex;
     }
+
+    .main-text { font-size: 2rem;}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .main-text { font-size: 1.5rem;}
 }
 
 /* Dishes */
 #cardmenu {
     display: flex;
     margin: 3rem;
-    width: 40rem;
+    width: 25vw;
     justify-content: center;
-}
-
-@media (min 992px) {
-    #cardmenu {
-        display: flex;
-    } 
-    
 }
 
 .section-dishes {
