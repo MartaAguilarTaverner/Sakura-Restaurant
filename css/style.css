@@ -68,7 +68,6 @@ body {
     .footer-kanji {
         font-size: 1.5rem;
     }
-
     
 }
 
@@ -102,7 +101,7 @@ body {
     }
 }
 
-/* Dishes */
+/* Dishes Deserts and Drinks Cards */
 #cardmenu {
     display: flex;
     justify-content: center;
@@ -120,7 +119,33 @@ body {
     list-style-type: circle;
 }
 
-
+/* About Us */
 .kaiseki-img {
     height: 93%;
+}
+
+.about-tittle {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 590px) and (max-width: 873px){
+    .about-tittle{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 590px){
+    .about-tittle{
+        font-size: 1.5rem;
+    }
+}
+
+.about-text {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 820px){
+    .about-text {
+        font-size: 0.9rem;
+    }
 }
