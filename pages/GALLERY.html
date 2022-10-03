@@ -26,7 +26,7 @@
         <div id="header">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">SAKURA</a>
+                    <a class="navbar-brand" href="../index.html">SAKURA</a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -43,7 +43,7 @@
                         id="navbarNavDropdown"
                     >
                         <ul
-                            class="d-flex navbar-nav justify-content-between flex-fill"
+                            class="d-flex navbar-nav justify-content-between align-items-center flex-fill"
                         >
                             <div class="menu-toolbar">
                                 <li class="nav-item">
@@ -67,14 +67,6 @@
                                         MENU
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li>
-                                            <a
-                                                class="dropdown-item nav-link"
-                                                href="./menu/MenuGallery.html"
-                                            >
-                                                Menu Gallery
-                                            </a>
-                                        </li>
                                         <li>
                                             <a
                                                 class="dropdown-item nav-link"
@@ -105,322 +97,331 @@
             </nav>
         </div>
         <!-- Carousels Dishes-->
-        <div class="row">
-            <div class="col">
-                <div
-                    id="carouselstarters"
-                    class="carousel carouselstarters"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselstarters"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselstarters"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselstarters"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div
-                            class="carousel-item active"
-                            data-bs-interval="10000"
-                        >
-                            <img src="../img/cucumbersalad.jpg" class="d-block
-                            w-100"">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Traditional Japanese Cucumber Salad</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="../img/gyoza.jpg" class="d-block w-100" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Gyozas</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../img/takoyaki.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Takoyaki</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselstarters"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselstarters"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+        <div id="gallery">
+            <div class="row m-0 justify-content-center">
+                <div class="col-6">
+                    <p>Starters</p>
                 </div>
             </div>
-        </div>
-        <br />
-        <div></div>
-        <br />
-        <div class="row">
-            <div class="col">
-                <div
-                    id="carouselMainDishesCold"
-                    class="carousel carouselMainDishesCold slide"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="3"
-                            aria-label="Slide 4"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="4"
-                            aria-label="Slide 5"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainDishesCold"
-                            data-bs-slide-to="5"
-                            aria-label="Slide 6"
-                        ></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div
-                            class="carousel-item active"
-                            data-bs-interval="10000"
-                        >
-                            <img src="../img/soba.jpg" class="d-block w-100" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Soba</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img
-                                src="../img/hagashichuka.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Hagashichuka</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../img/somen.jpg" class="d-block w-100" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Somen</h5>
-                            </div>
-                        </div>
-                        <div
-                            class="carousel-item active"
-                            data-bs-interval="10000"
-                        >
-                            <img
-                                src="../img/sashimi.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Sashimi Mix</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img
-                                src="../img/fde953e5aa504e8c83a84691582b0399.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Sushi mix</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../img/fd7725e87c304776984c3631db77e704.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Temaki</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselMainDishesCold"
-                        data-bs-slide="prev"
+            <div class="row m-0 justify-content-center">
+                <div class="col-10 col-lg-6">
+                    <div
+                        id="carouselstarters"
+                        class="carousel carouselstarters slide"
+                        data-bs-ride="carousel"
                     >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselMainDishesCold"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselstarters"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselstarters"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselstarters"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div
+                                class="carousel-item active"
+                                data-bs-interval="10000"
+                            >
+                                <img src="../img/cucumbersalad.jpg"
+                                class="d-block w-100"">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Traditional Japanese Cucumber Salad</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img
+                                    src="../img/gyoza.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Gyozas</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/takoyaki.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Takoyaki</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselstarters"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselstarters"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br />
-        <div></div>
-        <br />
-        <div class="row">
-            <div class="col">
-                <div
-                    id="carouselhotmaindishes"
-                    class="carousel carouselhotmaindishes slide"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-indicators">
+            <br />
+            <br />
+            <div class="row m-0 justify-content-center">
+                <div class="col-6">
+                    <p>Main Cold Dishes</p>
+                </div>
+            </div>
+            <div class="row m-0 justify-content-center">
+                <div class="col-10 col-lg-6">
+                    <div
+                        id="carouselMainDishesCold"
+                        class="carousel carouselMainDishesCold slide"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselMainDishesCold"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselMainDishesCold"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselMainDishesCold"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselMainDishesCold"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselMainDishesCold"
+                                data-bs-slide-to="4"
+                                aria-label="Slide 5"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img
+                                    src="../img/hagashichuka.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Hagashichuka</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/somen.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Somen</h5>
+                                </div>
+                            </div>
+                            <div
+                                class="carousel-item active"
+                                data-bs-interval="10000"
+                            >
+                                <img
+                                    src="../img/sashimi.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sashimi Mix</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img
+                                    src="../img/fde953e5aa504e8c83a84691582b0399.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sushi mix</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/fd7725e87c304776984c3631db77e704.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Temaki</h5>
+                                </div>
+                            </div>
+                        </div>
                         <button
+                            class="carousel-control-prev"
                             type="button"
-                            data-bs-target="#carouselhotmaindishes"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselhotmaindishes"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselhotmaindishes"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselhotmaindishes"
-                            data-bs-slide-to="3"
-                            aria-label="Slide 4"
-                        ></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div
-                            class="carousel-item active"
-                            data-bs-interval="10000"
+                            data-bs-target="#carouselMainDishesCold"
+                            data-bs-slide="prev"
                         >
-                            <img src="../img/oden.jpg" class="d-block w-100" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Oden</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img
-                                src="../img/seafoodnabe.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Seafood Nabe</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../img/bdeed24e206449e08847935eca15f2b7.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Meat Nabe</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../img/tonkatsu.jpg"
-                                class="d-block w-100"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Tonkatsu</h5>
-                            </div>
-                        </div>
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselMainDishesCold"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselhotmaindishes"
-                        data-bs-slide="prev"
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row m-0 justify-content-center">
+                <div class="col-6">
+                    <p>Main Hot Dishes</p>
+                </div>
+            </div>
+            <div class="row m-0 justify-content-center">
+                <div class="col-10 col-lg-6">
+                    <div
+                        id="carouselhotmaindishes"
+                        class="carousel carouselhotmaindishes slide"
+                        data-bs-ride="carousel"
                     >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselhotmaindishes"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselhotmaindishes"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselhotmaindishes"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselhotmaindishes"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselhotmaindishes"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div
+                                class="carousel-item active"
+                                data-bs-interval="10000"
+                            >
+                                <img
+                                    src="../img/oden.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Oden</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img
+                                    src="../img/seafoodnabe.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Seafood Nabe</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/bdeed24e206449e08847935eca15f2b7.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Meat Nabe</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/tonkatsu.jpg"
+                                    class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tonkatsu</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselhotmaindishes"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselhotmaindishes"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

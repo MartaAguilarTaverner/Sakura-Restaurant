@@ -26,7 +26,7 @@
         <div id="header">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">SAKURA</a>
+                    <a class="navbar-brand" href="../index.html">SAKURA</a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -43,21 +43,16 @@
                         id="navbarNavDropdown"
                     >
                         <ul
-                            class="d-flex navbar-nav justify-content-between flex-fill"
+                            class="d-flex navbar-nav justify-content-between align-items-center flex-fill"
                         >
                             <div class="menu-toolbar">
                                 <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="./ABOUTUS.html"
+                                    <a class="nav-link" href="./ABOUTUS.html"
                                         >ABOUT US</a
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="./GALLERY.html"
-                                    >
+                                    <a class="nav-link" href="./GALLERY.html">
                                         GALLERY
                                     </a>
                                 </li>
@@ -72,14 +67,6 @@
                                         MENU
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li>
-                                            <a
-                                                class="dropdown-item nav-link"
-                                                href="./menu/MenuGallery.html"
-                                            >
-                                                Menu Gallery
-                                            </a>
-                                        </li>
                                         <li>
                                             <a
                                                 class="dropdown-item nav-link"
@@ -100,10 +87,7 @@
                                 </li>
                             </div>
                             <li class="nav-item nav-link">
-                                <a
-                                    class="nav-link"
-                                    href="./CONTACTUS.html"
-                                >
+                                <a class="nav-link" href="./CONTACTUS.html">
                                     CONTACT US
                                 </a>
                             </li>
@@ -112,4 +96,122 @@
                 </div>
             </nav>
         </div>
+        <div id="main" class="container-fluid contactus-container text-center">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="mb-5">Contact us</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1hlA_ac-Hn_r_dPujazw5vhQPQxBHWIc&ehbc=2E312F"
+                        width="640"
+                        height="480"
+                        class="h-100 w-100"
+                        style="border: 0"
+                        loading="lazy"
+                    ></iframe>
+                </div>
+                <div class="col-4">
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-outline">
+                                    <label
+                                        class="form-label"
+                                        for="form3Example1"
+                                        >First name</label
+                                    >
+                                    <input
+                                        type="text"
+                                        id="form3Example1"
+                                        class="form-control"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-outline">
+                                    <label
+                                        class="form-label"
+                                        for="form3Example2"
+                                        >Email Address</label
+                                    >
+                                    <input
+                                        type="email"
+                                        id="form3Example2"
+                                        class="form-control"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <div class="form-outline mb-4">
+                                    <label
+                                        class="form-label"
+                                        for="form3Example3"
+                                        >Day and Hour</label
+                                    >
+                                    <input
+                                        type="date"
+                                        id="form3Example3"
+                                        class="form-control"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label" for="form4Example3"
+                                    >Preorder</label
+                                >
+                                <textarea
+                                    class="form-control"
+                                    id="form4Example3"
+                                    rows="4"
+                                ></textarea>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center my-3">
+                            <div class="col-3">
+                                <button type="submit" class="btn btn-primary">
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i
+                                        class="fas fa-map-marker-alt fa-2x text-primary"
+                                    ></i>
+                                    <p>
+                                        <small
+                                            >Gairdin Joane, Coolea, Co. Cork,
+                                            Irlanda</small
+                                        >
+                                    </p>
+                                </li>
+                                <li>
+                                    <i
+                                        class="fas fa-phone fa-2x text-primary"
+                                    ></i>
+                                    <p><small>+ 353 234 5667 89</small></p>
+                                </li>
+                                <li>
+                                    <i
+                                        class="fas fa-envelope fa-2x text-primary"
+                                    ></i>
+                                    <p><small>contact@gmail.com</small></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
